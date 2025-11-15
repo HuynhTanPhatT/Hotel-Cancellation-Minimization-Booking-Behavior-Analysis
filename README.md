@@ -24,6 +24,7 @@ This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, wh
 - Identify the root cause of cancellations.
 - Uncover guest behavior pattern for cancellations.
 - Support better decision-making to decrease cancellations.
+
 🥷 Who is this project for ?
 - Revenue Manager
 - Operation Team
@@ -43,11 +44,11 @@ This project aims to build a PowerBi dashboard using `Hotel Booking` dataset, wh
 - Format: CSV
 
 # Data Processing by Python & SQL & DAX
-1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/Python%3A%20Data%20Cleaning%20%26%20EDA/Hotel%20Booking%20Demand%20--%20Data%20Cleaning%20%26%20EDA.ipynb) to: 
+1. Using [Python](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Cancellation-Analysis-/tree/main/Python%3A%20Data%20Cleaning%20%26%20EDA) to: 
     - `Data Cleaning`: check data quality, handle null values, convert data types, detect data anamalies, and remove duplicate records.
     - `Exploratory Data Analysis (EDA)`: identify the **pain points** of stakeholder (**revenue manager**).
 
-2. Using [SQL](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Window-Booking/blob/main/SQL%20%E2%80%93%20Answering%20the%20problem%20statement%20in%20the%20Define%20stage%20of%20Design%20Thinking/2.%20Analysis%20Detailed%20Questions.sql) to:
+2. Using [SQL](https://github.com/HuynhTanPhatT/Hotel-Booking-Demand-Cancellation-Analysis-/tree/main/SQL%3A%20Answering%20Questions%20from%20the%20Define%20Stage%20of%20Design%20Thinking) to:
     - Answer detailed questions based on the **pain points** to define `a clearly analytical direction` for the Power Bi dashboard.
 3. DAX Calculations & Formulas
 - `Employ some several DAX formulas to calculate Key Performance Indicators (KPIs)`:
@@ -168,25 +169,29 @@ DIVIDE(non_repeated_guests,total_guests)
 
 # 🧠Design Thinking Process
 ## 1️⃣Empathize
-<img width="1232" height="693" alt="image" src="https://github.com/user-attachments/assets/d179f4a5-af3b-470f-a9b8-fc6b2a72be5b" />
+<img width="1230" height="696" alt="image" src="https://github.com/user-attachments/assets/1017d84f-139e-453f-b793-4dfe72f70c62" />
+
 
 ## 2️⃣Definde
-<img width="1232" height="693" alt="image" src="https://github.com/user-attachments/assets/a77da901-bcff-47d9-bb71-6dfe7003344f" />
+<img width="1237" height="692" alt="image" src="https://github.com/user-attachments/assets/d182a8d2-e6ce-4b3a-90d7-bc0597d9d527" />
+
 
 ## 3️⃣Ideate
-<img width="1234" height="691" alt="image" src="https://github.com/user-attachments/assets/5dbcda57-eb80-48ab-bbfe-bd62b899a212" />
+<img width="1234" height="692" alt="image" src="https://github.com/user-attachments/assets/01fbd6ec-f4c1-4390-90df-67d34702265a" />
+
 
 ## 4️⃣Prototype
 This part will be in **Key Insights & Visualization** section.
 
 
 # 🔗Hotel Room Reservation Booking Timeline
-<img width="1232" height="690" alt="image" src="https://github.com/user-attachments/assets/6a628548-1400-4314-83f8-7d8c80c2fb28" />
+<img width="1237" height="693" alt="image" src="https://github.com/user-attachments/assets/a4c486b1-5d63-496f-92a5-c93739358ac5" />
+
 
 
 # 📊Key Insights & Visualizations
 ## I. Business Overview
-<img width="1295" height="730" alt="image" src="https://github.com/user-attachments/assets/07af44d7-1a7c-42ed-9c60-34709495de66" />
+<img width="1304" height="728" alt="image" src="https://github.com/user-attachments/assets/b3f12af0-9c77-4331-8bca-3ba23941629a" />
 
 - The total number of bookings recorded from (07/2015 -> 08/2017) was **86.113** bookings:
     - `Confirmed Booking`: **62.109 bookings** (**72%**)
@@ -213,7 +218,7 @@ This part will be in **Key Insights & Visualization** section.
 => **`The 3 main factors driving the highest revenue loss and cancellations are European guests, TA/TO channel, and the No Deposit policy.`**
 
 ## II. Guest Behavior Analysis
-<img width="1301" height="726" alt="image" src="https://github.com/user-attachments/assets/460cfaba-d596-4ae8-84d0-013f26fad348" />
+<img width="1303" height="728" alt="image" src="https://github.com/user-attachments/assets/5128b36b-df75-4857-813f-b2a6249b5665" />
 
 1. **Correlation between Window Booking Bucket & Cancellation Behavior**:
     - Guests' booking behavior shows a clear pattern: the longer the booking window, the higher the cancellation rate.
@@ -234,6 +239,7 @@ This part will be in **Key Insights & Visualization** section.
 => **`The no Deposit policy, with Early-Bird behavior drives "book early-easy cancel", resulting in high cancellation rates among long-window bookings.`**
 
 ## III. Operation Analysis
+<img width="1303" height="730" alt="image" src="https://github.com/user-attachments/assets/9d4516fa-2459-472a-975e-e7f54959926f" />
 
 
 # 💡Recommendation
