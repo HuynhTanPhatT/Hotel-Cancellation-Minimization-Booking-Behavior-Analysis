@@ -250,7 +250,6 @@ This part will be in **Key Insights & Visualization** section.
     a. `Days to Cancellation` - How long after booking do guests cancel ?
        - On average, guests cancel **46.26** days after making a reservation
        - City & Resort Hotel: many guests cancel **on the same day** they made booking (**972 cancellations** - **12.18%** of total cancellations)
-
        -> The earlier cancellation, the easier for the hotel to manage room inventory and resell those rooms in time.
 
     b. `Cancellation Lead Time` - How long before check-in do guests cancel ?
