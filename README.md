@@ -238,7 +238,7 @@ This part will be in **Key Insights & Visualization** section.
     
 => **`The no Deposit policy, with Early-Bird behavior drives "book early - cancel easily", resulting in high cancellation rates among long-window bookings.`**
 
-## III. Operation Analysi
+## III. Operation Analysis
 <img width="1303" height="730" alt="image" src="https://github.com/user-attachments/assets/9d4516fa-2459-472a-975e-e7f54959926f" />
 
 1. **New guests or Old guest cancell more**
@@ -247,7 +247,7 @@ This part will be in **Key Insights & Visualization** section.
    -> This indicates that `No Deposit` bookings through `TA/TO` channels are largely **non-guaranteed guests**. It makes the hotel difficult for predicting the "book-cancel" behavior of new guests.
 
 2. **Cancellation Behavior of Early-Bird Guests**
-    a. `Days to Cancellation` - How long after booking do guests cancel ?
+a. `Days to Cancellation` - How long after booking do guests cancel ?
        - On average, guests cancel **46.26** days after making a reservation
        - City & Resort Hotel: many guests cancel **on the same day** they made booking (**972 cancellations** - **12.18%** of total cancellations)
        -> The earlier cancellation, the easier for the hotel to manage room inventory and resell those rooms in time.
@@ -258,7 +258,7 @@ This part will be in **Key Insights & Visualization** section.
            - **City Hotel**: ~**800** cancellations occured within 7 days of check-in, including **239** same-day cancellations (3% of all cancellations)
            - **Resort Hotel**:  the pattern of cancellations within 7 days of check-in exceeded the average - with high consistenly high volumes of cancellations in the 1-week window before check-in.
 
-3. **Consequences**
+4. **Consequences**
     - For the hotel:
         - Last-minute cancellations prevented the hotel from reselling 331 rooms, reducing the opportunity to sell to Last-Minute guests. This directly impacted the Occupancy Rate and potential revenue.
     - For guests:
