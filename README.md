@@ -133,7 +133,7 @@ days_to_cancellation = FactTable[reservation_date] - FactTable[BookingDate]
 Avg Days to Cancellation = AVERAGE(FactTable[days_to_cancellation])
 ```
 
-- **Days Before Last Status Update**:
+- **Cancellation Lead Time**:
 ```dax
 cancellation_lead_time = FactTable[check_in] - FactTable[reservation_date]
 Avg Cancellation Lead Time = AVERAGE(FactTable[cancellation_lead_time])
@@ -172,7 +172,7 @@ DIVIDE(non_repeated_guests,total_guests)
 <img width="1230" height="696" alt="image" src="https://github.com/user-attachments/assets/1017d84f-139e-453f-b793-4dfe72f70c62" />
 
 
-## 2️⃣Definde
+## 2️⃣Define
 <img width="1237" height="692" alt="image" src="https://github.com/user-attachments/assets/d182a8d2-e6ce-4b3a-90d7-bc0597d9d527" />
 
 
@@ -204,14 +204,14 @@ This part will be in **Key Insights & Visualization** section.
 2. **Revenue & Revenue Loss & Cancellations**:
     - Revenue increased steadily over the years, reaching **$34.41M** in 08/2017. However, **24.004** cancelled bookings led to a potential revenue of **$11.48M** (accounted for 33.37% of the total revenue).
 
-3. **Window Booking** & **ADR**:
+3. **Average Window Booking** & **ADR**:
     - The hotel applied a **flexible seasonal pricing strategy** with ADR (**$68**-**$183**) to optimize revenue. They set lower ADR during the **off season** (`winter`) and increased ADR during the **peak season**.
     - Customers tended to book early, on average (2-4 months before check-in), especially before the peak season when ADRs were lower in the off season.
 
-    -> The hotel attracted **early-booking guests**, particularly during the **peak travel season**.
+    -> The hotel attracted **early-bird bookings**, particularly during the **peak travel season**.
 
 5. **Region & Market & Deposit Type**:
-   - `European guests` accounted for **$30M**(88.54%) of total revenue but also had the highest rate of cancellations (86.84%)
+   - `European guests` accounted for **$30M**(**88.54%**) of total revenue but also had the highest rate of cancellations (**86.84%**)
    - The `TA/TO channel ` generated the highest revenue (**$29M** loss) while  contributing to **89.14%** of total cancellations.
    - **95.8%** of all cancellations came from bookings under the `No Deposit` payment option.
      
@@ -230,7 +230,7 @@ This part will be in **Key Insights & Visualization** section.
     - During `spring` and `summer` (the peak travel season) - guests booked and cancelled the most (mainly within `31-90 days` & `91-180 days`) buckets.
 
 3. **Most impacted Guest segment**:
-    - `Early-Bird guests` accounted for the majority of cancellations (**78%**-**82%** across hotel types). Mainly **domestict Transient guests** from **Portugal** contributed to cancellations about **30%** in City and **60%** in Resort bringing in an estimated **$8.6M** revenue loss out of a total **$11.48M**.
+    - `Early-Bird guests` accounted for the majority of cancellations (**78%**-**82%** across hotel types). Mainly `domestict Transient guests` from `Portugal` contributed to cancellations about **30%** in City and **60%** in Resort bringing in an estimated **$8.6M** revenue loss out of a total **$11.48M**.
 
 - `Why do guests prefer Long-Window Booking?`
     - They prefer flexibility: booked early to secure their spot, with no deposit involed, they do not need to pay any fees until check-in.
@@ -250,26 +250,54 @@ This part will be in **Key Insights & Visualization** section.
     - `Days to Cancellation` - How long after booking do guests cancel ?
         - On average, guests cancel **46.26** days after making a reservation
         - City & Resort Hotel: many guests cancel **on the same day** they made booking (**972 cancellations** - **12.18%** of total cancellations)
-       
-       -> The earlier cancellation, the easier for the hotel to manage room inventory and resell those rooms in time.
+
+       -> The earlier cancellation, the easier for both hotels to manage room iventory and resell those rooms in time.
 
     - `Cancellation Lead Time` - How long before check-in do guests cancel ?
-        - On average, guests cancel **82.10** days before check-in
-        - Somes guests cancel close to check-in:
-           - **City Hotel**: ~**800** cancellations occured within 7 days of check-in, including **239** same-day cancellations (3% of all cancellations)
-           - **Resort Hotel**:  the pattern of cancellations within 7 days of check-in exceeded the average - with high consistenly high volumes of cancellations in the 1-week window before check-in.
+        - On average, guests cancel **82.10** days before check-in date
+        - Some guests cancel close to check-in date.
+            - City Hotel: ~**800** cancellations occured within 7 days of check-in, including **239** same-day cancellation (3% of all cancellation)
+            - Resort Hotel: the pattern of cancellations within 7 days of check-in exceeded the average - with a high volume of cancelled bookings in the week before check-in.
 
-4. **Consequences**
-    - For the hotel:
-        - Last-minute cancellations prevented the hotel from reselling 331 rooms, reducing the opportunity to sell to Last-Minute guests. This directly impacted the Occupancy Rate and potential revenue.
-    - For guests:
-        -  If guests cancel outside the allowed cancellation policy, they may be charged a penalty on their credit card (depending on each hotel’s policy).
 
-=> **`This analysis allows me to form a hypothesis about the cancellation policies of both hotel types, based on the observed Cancellation Lead Time — which is included in the conclusion and action recommendations.`**
+3. **Consequences**
+    - `For the Hotel`:
+        - Last-Minute cancellations prevented the hotel from selling **331** rooms (opportunity to sell to Last-Minute guests). This directly impacted the **Occupancy Rate** and **potential revenue**.
+    - `For Guests`:
+        - If guests cancel too late and outside the allowed cancellation policy, they may be charged a penalty on their credit card (depending on each hotel's policy)
+    - For the hoteL:
+        - Last-Minute cancellations made the hotel from not able to handle to sell 331 rooms (opportunity to sell to Last-Minute guests). This directly impacted the Occupancy Rate and Potential Revenue.
 
-# 💡Recommendation
+=> **`This analysis allows me to form a hypothesis about cancellation policies of both hotel types, based on Cancellation Lead Time in the recommendations section`**
 
-Cancellation Policy Hypothesis
+
+# 💡Cancellation Policy Hypothesis & Recommendations
+
+⚙️Cancellation Policy Hypothesis
+Dựa trên “pattern” của Cancellation Lead Time  để phân thành 2 chính sách hủy của từng loại Khách Sạn:
+| Hotel Types                  | Strategy                  | Insight                                                                                               | Recommendation                                                                                                                                                 |
+|-----------------------|---------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+City Hotel 
+(thành phố Lisbon)	Nhóm Cancellation Lead Time từ 0→7 ngày cao nhất với 761 lượt, trong đó ngày 0 (hủy vào ngày check-in) có (239 lượt - 3%)	Nếu Khách Hàng hủy đặt phòng trước 48 giờ trước thời điểm check-in	- Phòng bị hủy trong vòng 48 tiếng trước thời điểm check-in sẽ bị tính phí vào Credit Card.
+- ⚙️Kết quả: ngày 0 và ngày 1 dựa trên Cancellation Lead Time  vi phạm chính sách hủy.
+
+Resort Hotel 
+(khu nghỉ dưỡng Algarve)	Nhóm Cancellation Lead Time từ 0→7 ngày có 212 lượt , thấp hơn City nhưng vượt mức trung bình —  có 92 lượt vào ngày check-in.	Nếu Khách Hàng hủy đặt phòng trước 1 tuần trước thời điểm check-in 	- Phòng bị hủy trong vòng 1 tuần cho đến thời điểm check-in sẽ bị tính phí vào Credit Card.
+- ⚙️Kết quả: ngày 0 → ngày 7 dựa trên Cancellation Lead Time vi phạm chính sách.
+
+
+| **Hotel Type**             | **Insight**                                                                                                 | **Cancellation Policy**                                                              | **Late Cancelaltion Policy**                                                                                                                                                                                                                 |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **City Hotel (Lisbon)**    | The 0–7 day cancellation window has the highest volume (**761 cancellations**), including **239 same-day cancellations (3%)**.                | Guests are allowed to cancel **up to 48 hours before check-in** without penalty. | - Cancellations made **within 48 hours** before check-in are likely charged to the guest’s credit card. <br> - ⚙️ **Implication:** Based on the Cancellation Lead Time pattern, **Day 0 and Day 1 cancellations appear to violate the hotel’s policy**. |
+| **Resort Hotel (Algarve)** | The 0–7 day window shows **212 cancellations**, lower than the City hotel, but still above average — including **92 same-day cancellations**. | Guests are allowed to cancel **up to 7 days before check-in** without penalty.   | - Cancellations made **within 7 days** before check-in are likely charged to the guest’s credit card. <br> - ⚙️ **Implication:** Based on observed patterns, **Day 0 to Day 7 cancellations appear to violate the hotel’s policy**.                     |
+
+
+
+
+
+
 
 
 
