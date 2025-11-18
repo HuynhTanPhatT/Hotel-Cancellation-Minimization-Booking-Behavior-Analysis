@@ -1,4 +1,4 @@
-# 🏩Hotel Booking Demand & Cancellation Analysis - Understanding Long Booking Window with No Deposit Policy (07/2015 - 10/2017)
+# 🏩Hotel Cancellation Minimization & Booking Behavior Analysis- Understanding Long-Booking Window with No Deposit policy (07/2015 - 10/2017)
 - Author: Huỳnh Tấn Phát
 - Date: 10/2025
 - Tool Used: `Python`, `SQL`, `PowerBi`
