@@ -284,12 +284,21 @@ This part will be in **Key Insights & Visualization** section.
 
 
 💡Recommendation: Focusing on they key segments (**12.67K** out of **24.00K** cancellations) provides the hotel with solutions that can improve the cancellation problem.
+
+
+
+
+
+
+
+
+
+
+                                                                                                               
                                                                                                                 
 | **Who**             | **Strategy**                  | **Insight**                                                                                                                                                                                                                                                                                                                                                      | **Recommendation**                                                                                                                                                                                                                                                                                              |
 |---------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Revenue Manager** | **1. Build Customer Loyalty** | • ⇑99% of cancellations in the key segments came from **new guests** (first-time bookers across both hotels).<br> • These guests tend to "book early to secure a room" in **31-180 days** bucket <br> • The **No Deposit** policy turns the guests into "non-guaranteed", making it hard for the hotel to predict "whether they come" or "when they will cancel". | (1)💡Create a small-deposit opportunity for early-bird<br>- If guests book in advance (>120 days), the hotel can offer a discount rate for early commitment during peak season -> `A small deposit can discourage casual cancellations`.<br><br>(2) 💡Increase the guest return rate<br>-- Revenue Manager should **build customer loyalty** for both hotel types targeting: **long-term business**, **"non-guaranteed"** to **"guaranteed"**" guests. |
-
-
+| **Revenue Manager** | **1.🎯Build Customer Loyalty** | • ⇑99% of cancellations in the key segments came from **new guests** (first-time bookers across both hotels).<br> • These guests tend to "book early to secure a room" in **31-180 days** bucket <br> • The **No Deposit** policy turns the guests into "non-guaranteed", making it hard for the hotel to predict "whether they come" or "when they will cancel". | (1)**💡Create a small-deposit opportunity for early-bird**<br>- If guests book in advance (>120 days), the hotel can offer a discount rate for early commitment during peak season -> `A small deposit can discourage casual cancellations`.<br><br>(2) **💡Increase the guest return rate**<br>- Revenue Manager should build **customer loyalty** for both hotel types targeting: **long-term business**, **"non-guaranteed"** to **"guaranteed"** guests. | **Revenue Manager** && **Operation Team** | **2.🚀Review Cancellation Policy** | <br> • The hotel should avoid same-day check-in cancellation |(1) **💡**💡Review and improve the cancellation policy to prevent same-day check-in cancellations**  <br> - After a guest books a room, proactively send the cancellation policy, especially for TA/TO and No Deposit reservations. <br>- Ensure the policy is clearly visible (Booking Page, Email,etc) <br><br> **(2)💡Improve room operations and track room availability** (48 hours for City Hotel and 1 week for Resort Hotel) to: <br>- Allow the hotel to sell rooms in time for Last-Minute bookings and fill empty rooms.<br> - Reduce 331 cancellations on the day of check-in (2.61%) <br><br> **(3)💡What to do when cancellations happen on the check-in date** <br>- The hotel can promote last-minute deals through email to their customer list. |
 
 
 
