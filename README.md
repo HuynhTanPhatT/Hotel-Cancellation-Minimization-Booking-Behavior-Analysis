@@ -284,26 +284,10 @@ This part will be in **Key Insights & Visualization** section.
 
 
 💡Recommendation: Focusing on they key segments (**12.67K** out of **24.00K** cancellations) provides the hotel with solutions that can improve the cancellation problem.
-
-
-
-
-
-
-
-
-
-| **Who**             | **Strategy**                      | **Insight**                                                                                                                                                                                                                                                                                                                                                  | **Recommendation**                                                                                                                                                                                                                                                                                                                            |
-| ------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Revenue Manager** | **1. Build Customer Loyalty**     | • ⇑99% of cancellations in the key segments came from **new guests** (first-time bookers across both hotels).   <br> • These guests tend to "book early to secure a room" in **31-180 days** bucket  <br> • The **No Deposit** policy turns the guests into "non-guaranteed", making it hard for the hotel to predict "whether they come" or "when they will cancel".         |
-(1)💡Create a small-deposit opportunity for early-bird
-- If guests book in advance (>120 days), the hotel can offer a discount rate for early commitment during peak season -> `A small deposit can discourage casual cancellations`.
-
-(2)💡Increase the guest return rate
-- Revenue Manager should **build customer loyalty** for both hotel types targeting: **long-term business**, **"non-guaranteed"** to **"guaranteed"**" guests.    |                                                                                                                                                                                                                                         
-                                                                                                
-
-
+                                                                                                                
+| **Who**             | **Strategy**                  | **Insight**                                                                                                                                                                                                                                                                                                                                                      | **Recommendation**                                                                                                                                                                                                                                                                                              |
+|---------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Revenue Manager** | **1. Build Customer Loyalty** | • ⇑99% of cancellations in the key segments came from **new guests** (first-time bookers across both hotels).<br> • These guests tend to "book early to secure a room" in **31-180 days** bucket <br> • The **No Deposit** policy turns the guests into "non-guaranteed", making it hard for the hotel to predict "whether they come" or "when they will cancel". | (1)💡Create a small-deposit opportunity for early-bird<br>- If guests book in advance (>120 days), the hotel can offer a discount rate for early commitment during peak season -> `A small deposit can discourage casual cancellations`.<br><br>(2) 💡Increase the guest return rate<br>-- Revenue Manager should **build customer loyalty** for both hotel types targeting: **long-term business**, **"non-guaranteed"** to **"guaranteed"**" guests. |
 
 
 
